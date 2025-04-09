@@ -1,7 +1,7 @@
 .cart-container {
     padding: 50px;
     font-family: Arial, sans-serif;
-    background-color: #ffffff; /* Pastel cream background */
+    background-color: #ffffff; /* background */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(6, 126, 98, 0.1);
   }
@@ -46,7 +46,7 @@
   
   .cart-item-price {
     font-size: 16px;
-    color: #000000; /* Pastel blue */
+    color: #000000; /* Price */
   }
   
   .cart-summary {
@@ -105,7 +105,7 @@
   
   .shipping-options h2 {
     font-size: 24px;
-    color: #fcb7b7; /* Soft gray */
+    color: #fcb7b7; /* lettering shipping options*/
   }
   
   .shipping-options label {
@@ -118,7 +118,7 @@
   }
   
   .btn-info {
-    background-color: #f5c1f1; /* Pastel orange */
+    background-color: #f5c1f1; /*btn */
     border: none;
     color: #fff;
   }
@@ -134,5 +134,5 @@
   }
   
   div[style*="background-color: white"] {
-    background-color: #ffffff; /* Pastel cream background */
+    background-color: #ffffff; /* background */
   }
