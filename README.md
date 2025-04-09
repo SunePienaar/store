@@ -1,3 +1,23 @@
+# Store App
+
+This is a React-based store application that allows users to browse products, select styles, and add items to their cart. The app is styled with CSS and uses Redux for state management.
+
+## Features
+- Responsive product grid layout.
+- Carousel for product styles.
+- Add-to-cart functionality with style selection.
+- Clean and modern UI with pastel-themed styling.
+
+## Prerequisites
+- Node.js (v16 or higher)
+- npm (v8 or higher)
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/store.git
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

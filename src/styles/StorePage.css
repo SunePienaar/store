@@ -1,0 +1,84 @@
+.store-container {
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+}
+
+.store-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #6c757d; /* Soft gray */
+    margin-bottom: 30px;
+}
+
+.store-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive cascading grid */
+    gap: 20px; /* Space between items */
+    justify-items: center; /* Center items horizontally */
+}
+
+.store-item {
+    background-color: transparent; /* No background for items */
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.store-item:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.product-card {
+    text-align: center;
+}
+
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* Ensure the entire image is visible */
+    cursor: pointer;
+    transition: border 0.2s ease;
+}
+
+.product-image.selected-style {
+    border: 3px solid #ffb3c1; /* Pastel pink border for selected style */
+}
+
+.add-to-cart-btn {
+    background-color: #b3d9ff; /* Pastel blue */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #6c757d; /* Soft gray hover */
+}
+
+/* Carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+    border-radius: 50%; /* Circular buttons */
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,60 @@
+.login-container {
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Pastel cream background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(6, 126, 98, 0.1);
+}
+
+.login-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 48px; /* Large font size */
+    font-weight: bold; /* Thick lettering */
+    color: #6c757d; /* Soft gray */
+}
+
+.login-form {
+    max-width: 500px;
+    margin: 0 auto; /* Center the form */
+}
+
+.form-group label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ffb3c1; /* Light pink border */
+    border-radius: 5px;
+    background-color: #ffe4e9; /* Light pink background */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.form-control:focus,
+.form-control:valid {
+    border-color: #ff8fa3; /* Darker pink border */
+    background-color: #ffccd5; /* Darker pink background */
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 143, 163, 0.5); /* Pink glow */
+}
+
+.btn-primary {
+    background-color: #d1fdc1; /* Pastel blue */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #000; /* Black hover */
+    color: #fff; /* White text */
+}

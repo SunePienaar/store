@@ -1,0 +1,78 @@
+.header {
+    background-color: #fef6e4; /* Pastel cream background */
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-button {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #6c757d; /* Soft gray */
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+/* Default background color */
+.nav-button {
+    background-color: transparent;
+}
+
+/* Hover effect: pastel color fade-in */
+.nav-button:hover {
+    background-color: #ffd6a5; /* Default pastel orange */
+    color: #fff; /* White text on hover */
+    border-color: #ffd6a5; /* Match border to background */
+}
+
+/* Assign different pastel colors to each button */
+.nav-links li:nth-child(1) .nav-button:hover {
+    background-color: #ffd6a5; /* Pastel orange */
+    border-color: #ffd6a5;
+}
+
+.nav-links li:nth-child(2) .nav-button:hover {
+    background-color: #b3d9ff; /* Pastel blue */
+    border-color: #b3d9ff;
+}
+
+.nav-links li:nth-child(3) .nav-button:hover {
+    background-color: #c9fac7; /* Pastel green */
+    border-color: #c9fac7;
+}
+
+.nav-links li:nth-child(4) .nav-button:hover {
+    background-color: #f3e8ff; /* Pastel purple */
+    border-color: #f3e8ff;
+}
+
+.nav-links li:nth-child(5) .nav-button:hover {
+    background-color: #ffe4e9; /* Pastel pink */
+    border-color: #ffe4e9;
+}
+
+.nav-links li:nth-child(6) .nav-button:hover {
+    background-color: #fff5ba; /* Pastel yellow */
+    border-color: #fff5ba;
+}

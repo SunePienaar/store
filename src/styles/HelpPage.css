@@ -1,0 +1,50 @@
+.help-container {
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #f3e8ff; /* Pastel purple background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(6, 126, 98, 0.1);
+}
+
+.help-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 48px; /* Large font size */
+    font-weight: bold; /* Thick lettering */
+    color: #6c757d; /* Soft gray */
+}
+
+.help-content {
+    max-width: 600px;
+    margin: 0 auto; /* Center the content */
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.help-content ul {
+    padding-left: 20px;
+    list-style-type: none; /* Remove default bullet points */
+}
+
+.help-content ul li {
+    font-size: 24px; /* Big font size */
+    font-weight: bold; /* Bold and thick */
+    color: #b3d9ff; /* Pastel blue */
+    margin-bottom: 10px;
+}
+
+.help-content ul li span {
+    color: #ffb3c1; /* Pastel pink for the labels */
+}
+
+.help-content a {
+    color: #b3d9ff; /* Pastel blue link */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.help-content a:hover {
+    color: #000; /* Black hover */
+    text-decoration: underline;
+}
